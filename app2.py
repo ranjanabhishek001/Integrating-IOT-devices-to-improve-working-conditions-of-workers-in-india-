@@ -16,7 +16,7 @@ st.set_page_config(page_title="IoT Wearable Health Dashboard", layout="wide")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("/content/iot_worker_conditions_dataset.csv")
+    return pd.read_csv("iot_worker_conditions_dataset.csv")
 
 df = load_data()
 
