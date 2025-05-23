@@ -4,3 +4,4 @@ numpy
 pydeck
 openai
 requests
+google.generativeai
